@@ -1,0 +1,42 @@
+body{
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#header{
+    margin-bottom: 10px;
+text-align: center;
+background-color: aquamarine;
+}
+#map {
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+
+#legend{
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.visHolder{
+background-color: red;
+}
+#tooltip {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    text-align: center;
+    width: 140px;
+    height: 100px;
+    background-color: rgb(58, 54, 54);
+    color:rgb(255, 255, 255);
+    border-radius: 10%;
+    pointer-events: none;
+    opacity: 0;
+    font-size: 13px;
+}
+.tile-text{
+    font-size: 10;
+    cursor: default;
+}
